@@ -11,7 +11,7 @@
      <form >
          <label for="email">
             Email:
-            <input type="text" id="email">
+            <input placeholder="enter your email" type="text" id="email">
          </label>
          <label for="Password">
             Password:
@@ -27,10 +27,29 @@
         <form >
             <label for="email">
                 Email:
-                <textarea rows="4" cols="12" type="email" name="email" id=""></textarea>
+                <textarea placeholder="enter your email" type="email" name="email" id=""></textarea>
             </label>
+            <br>
+
+            <label for="Game">
+                <select name="Game" id="">
+                    <option value="cricket">cricket</option>
+                    <option value="football">football</option></option>
+                </select>
+            </label>
+            <br>
+            <label for="reading">
+                book: <input type="checkbox" name="reading" id="">
+            </label>
+            <br>
+            <label for="month">
+                Month: <input type="month" name="month" id="">
+            </label>
+            <label for="color">
+                Color: <input type="color" name="color"  >
+            </label>
+            <br>
             <button type="submit">submit</button>
-            
         </form>
      </div>
 </body>
